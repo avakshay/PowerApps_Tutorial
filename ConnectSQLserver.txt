@@ -19,4 +19,26 @@ Step 4: click on create button.
 
 Step 1: create a new flow from blank in Flows.
 
-Step 2: After creating a flow select "Manually Trigger a flow" and add new 
+Step 2: After creating a flow select "Manually Trigger a flow" and add new Action "SQL Server"
+
+Step 3: Action like insert, Get, Update rows and SQL Query  will perform.
+
+--- Get Rows ---
+
+Providing a Server Name, Database Name and Table Name
+
+--- Execute SQL Query ---
+
+Providing a Server Name, Database Name, Query and some parameters
+
+--- Insert Rows and Update Row ---
+
+Providing a Server Name, Database Name, table Name and required fields regarding to table name.
+
+--- Delete Rows ---
+
+Providing a Server Name, Database Name, Table Name and row id
+
+Step 4: After fill all the required fields and then save
+
+Step 5 : Done
