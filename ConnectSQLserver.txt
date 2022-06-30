@@ -1,0 +1,22 @@
+1. How to connect & use sqlserver in power apps 
+
+------- Create connection --------
+
+Step 1: click on the “+ Add new connection” tab in connections and search SQL Server.
+
+Step 2: open SQL Server connection and set Authentication type ( Azure AD Integrated, SQL        
+        Server Authentication, Windows Authentication)
+
+Step 3: I am selecting Sql Server Authentication then i must fill Server Name, Database Name, 
+        Username, Password and choose a on-premises data gateway.
+
+Note: Before choosing on-premises data gateway you need to download and setup 
+      GatewayInstall.exe on your system.
+
+Step 4: click on create button.
+
+------- SQL Server Integration in power automate --------
+
+Step 1: create a new flow from blank in Flows.
+
+Step 2: After creating a flow select "Manually Trigger a flow" and add new 

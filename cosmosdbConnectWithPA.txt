@@ -1,0 +1,26 @@
+Cosmos DB:
+
+CosmosDB classified as a NOSQL database and JSON based database as a "Platform as a service" in Microsoft Azure. Create a Resource group and choose the SQL Version/API then create / Use Database and create a collection in database.
+
+
+How to create cosmos DB in powerapps -> 
+
+Step 1: connect Azure Cosmos DB in connections on powerapps. 
+	  Account ID & Access Key is required for connections.
+
+Step 2: submit save button for creating a cosmos db connection.
+
+Step 3: create a new flow from blank - choose an action Azure cosmos DB and select which 		  
+	  action will perform like get, create, update, delete document/procedure.
+
+Step 4: after selecting an action then 
+		- fill the database connection information or select from dropdown
+		- fill the collection information or select from dropdown
+		- fill the document in json format
+
+Step 5: save current flow
+
+Step 6: run Test Flow.
+
+
+Required -  Account ID, Access Key 

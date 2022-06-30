@@ -1,0 +1,33 @@
+Dataverse Table
+
+Tables are used to model and manage business data. Dataverse tables are similar to tables in a database. Every instance of a Dataverse database includes a 
+base set of tables that provide structure for data that is commonly used by business applications.
+In Dataverse, a table is a logical structure containing records that are made up of rows and columns.
+
+Connect dataverse table to automated flows 
+
+Step 1: Select "+New flows" tab in flows and select automated cloud flows after creating a flow , select Manually trigger a flow
+
+Note:  For add a new row , list rows , update a row, delete a row in your table you have to perform the
+       following steps-: 
+
+Step 2: Click new step, Select the microsoft dataverse and select add a new row after that and you must fill 
+        table name and the other  details dynamically  from which you can add data in your table. 
+
+Step 3: Select save , This is how you  add a new row in your table > then test your flow manually. 
+  
+---List Rows---
+   - To get data of the table you have created, then you have to select list rows
+
+ Step 1: After creating a flow , Select Manually trigger a flow and select the microsoft dataverse.
+
+ Step 2: Select List rows  then choose the table name want to  select and for listing out your table.
+
+ Step 3: Initialize the variable (name, type, value) and  compose your variable by given 
+         expression after clicking on the new step.
+
+---Update and Delete---
+
+Step 1: You can delete and update your table row by given row id > you will get row id after performing the list rows (@odata.id). 
+       
+            
